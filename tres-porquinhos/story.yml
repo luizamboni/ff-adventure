@@ -1,0 +1,32 @@
+init: 
+  sound: relaxing-mountains-rivers-streams-running-water-18178.mp3
+  speak:
+    - Os 3 porquinos
+    - Era uma vez, 3 porquinhos
+    - que viviam na floresta
+  duration: 5
+  ask: Eles construirão uma casa de palha para se abrigar ?
+  awnsers:
+    sim: 1
+    não: 2
+1:
+    sound: tortoise-toy-34550.mp3
+    speak: 
+      - Então prosseguiram para a construção.
+    duration: 10
+    to: 3
+3: 
+    speak:
+      - Naquela mesma noite, bateram na porta dos 3 porquinhos.
+      - Boa Noite! 
+      - Quem pode ser ha essa hora ?
+      - Aqui é o Lob...Quer dizer, o Senhor Lobêncio.
+      - O que quer esta hora Senhor Lobêncio, já estamos Dormindo !
+    to: end
+2:
+    speak: 
+      - Que pena, o lobo mau os devorou sem que tivessem nenhuma chance !
+    to: end
+end:
+    speak: 
+      - Fim da história
